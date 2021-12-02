@@ -1,0 +1,66 @@
+body
+{
+	background: linear-gradient(black,lightyellow);
+	background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:1000px;
+	overflow: hidden;
+	
+}
+
+	.login_div1 ,.login_div2
+	{
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		background:whitesmoke;
+		opacity: 2;		
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#player1_name_input, #player2_name_input{
+	border-radius: 20px;
+	height: 45px;
+	width: 60%;
+	background: black;
+	color: white;
+	opacity: 10;
+}
+h1{
+	color: white;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+
+#log_in, #send{
+	color: white;
+	background:crimson;
+	border-radius: 20px;
+	height: 45px;
+}
+
+#game{
+	background: linear-gradient(blue,pink,purple);
+}
+
+#output {
+background: white;
+border-radius: 10px;
+border-top: 10px solid grey;
+padding: 10px;
+float: none;
+text-align: left;
+width: 90%;
+}
